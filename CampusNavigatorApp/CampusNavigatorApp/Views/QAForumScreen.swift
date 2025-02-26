@@ -44,10 +44,18 @@ struct QAForumScreen: View {
     var body: some View {
         NavigationView {
             ZStack {
-                // Background Shape
+                // Background color
                 Color(hex: "F5F5F5")
                     .ignoresSafeArea()
                 
+                // Shape image at the top
+                Image("shape")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(height: 500)
+                    .edgesIgnoringSafeArea(.top)
+                    .position(x: UIScreen.main.bounds.width / 2, y: 0)
+                     
                 VStack(spacing: 0) {
                     // Header
                     HStack {

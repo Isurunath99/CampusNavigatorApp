@@ -11,7 +11,9 @@ import SwiftUI
 struct CampusNavigatorAppApp: App {
     var body: some Scene {
         WindowGroup {
-            DashboardView()
+            NavigationView {
+                DashboardView()
+            }
         }
     }
 }
