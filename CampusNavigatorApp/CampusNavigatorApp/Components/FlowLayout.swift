@@ -59,7 +59,6 @@ struct FlowLayout: Layout {
             }
             
             self.size.height = y + maxHeight
-            self.size.height = y + maxHeight
         }
     }
 }
