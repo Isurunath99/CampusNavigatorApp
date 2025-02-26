@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF5F824D2D64E45F006A4D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5F82342D64E45D006A4D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5F823B2D64E45D006A4D15;
+			remoteInfo = CampusNavigatorApp;
+		};
+		AF5F82572D64E45F006A4D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5F82342D64E45D006A4D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5F823B2D64E45D006A4D15;
+			remoteInfo = CampusNavigatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5F823C2D64E45D006A4D15 /* CampusNavigatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusNavigatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5F824C2D64E45F006A4D15 /* CampusNavigatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusNavigatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5F82562D64E45F006A4D15 /* CampusNavigatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusNavigatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF5F823E2D64E45D006A4D15 /* CampusNavigatorApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampusNavigatorApp;
+			sourceTree = "<group>";
+		};
+		AF5F824F2D64E45F006A4D15 /* CampusNavigatorAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampusNavigatorAppTests;
+			sourceTree = "<group>";
+		};
+		AF5F82592D64E45F006A4D15 /* CampusNavigatorAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampusNavigatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5F82392D64E45D006A4D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F82492D64E45F006A4D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F82532D64E45F006A4D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5F82332D64E45D006A4D15 = {
+			isa = PBXGroup;
+			children = (
+				AF5F823E2D64E45D006A4D15 /* CampusNavigatorApp */,
+				AF5F824F2D64E45F006A4D15 /* CampusNavigatorAppTests */,
+				AF5F82592D64E45F006A4D15 /* CampusNavigatorAppUITests */,
+				AF5F823D2D64E45D006A4D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5F823D2D64E45D006A4D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5F823C2D64E45D006A4D15 /* CampusNavigatorApp.app */,
+				AF5F824C2D64E45F006A4D15 /* CampusNavigatorAppTests.xctest */,
+				AF5F82562D64E45F006A4D15 /* CampusNavigatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5F823B2D64E45D006A4D15 /* CampusNavigatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5F82602D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorApp" */;
+			buildPhases = (
+				AF5F82382D64E45D006A4D15 /* Sources */,
+				AF5F82392D64E45D006A4D15 /* Frameworks */,
+				AF5F823A2D64E45D006A4D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF5F823E2D64E45D006A4D15 /* CampusNavigatorApp */,
+			);
+			name = CampusNavigatorApp;
+			packageProductDependencies = (
+			);
+			productName = CampusNavigatorApp;
+			productReference = AF5F823C2D64E45D006A4D15 /* CampusNavigatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5F824B2D64E45F006A4D15 /* CampusNavigatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5F82632D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorAppTests" */;
+			buildPhases = (
+				AF5F82482D64E45F006A4D15 /* Sources */,
+				AF5F82492D64E45F006A4D15 /* Frameworks */,
+				AF5F824A2D64E45F006A4D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5F824E2D64E45F006A4D15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF5F824F2D64E45F006A4D15 /* CampusNavigatorAppTests */,
+			);
+			name = CampusNavigatorAppTests;
+			packageProductDependencies = (
+			);
+			productName = CampusNavigatorAppTests;
+			productReference = AF5F824C2D64E45F006A4D15 /* CampusNavigatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5F82552D64E45F006A4D15 /* CampusNavigatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5F82662D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorAppUITests" */;
+			buildPhases = (
+				AF5F82522D64E45F006A4D15 /* Sources */,
+				AF5F82532D64E45F006A4D15 /* Frameworks */,
+				AF5F82542D64E45F006A4D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5F82582D64E45F006A4D15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF5F82592D64E45F006A4D15 /* CampusNavigatorAppUITests */,
+			);
+			name = CampusNavigatorAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CampusNavigatorAppUITests;
+			productReference = AF5F82562D64E45F006A4D15 /* CampusNavigatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5F82342D64E45D006A4D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AF5F823B2D64E45D006A4D15 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AF5F824B2D64E45F006A4D15 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AF5F823B2D64E45D006A4D15;
+					};
+					AF5F82552D64E45F006A4D15 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AF5F823B2D64E45D006A4D15;
+					};
+				};
+			};
+			buildConfigurationList = AF5F82372D64E45D006A4D15 /* Build configuration list for PBXProject "CampusNavigatorApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5F82332D64E45D006A4D15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF5F823D2D64E45D006A4D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5F823B2D64E45D006A4D15 /* CampusNavigatorApp */,
+				AF5F824B2D64E45F006A4D15 /* CampusNavigatorAppTests */,
+				AF5F82552D64E45F006A4D15 /* CampusNavigatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5F823A2D64E45D006A4D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F824A2D64E45F006A4D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F82542D64E45F006A4D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5F82382D64E45D006A4D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F82482D64E45F006A4D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F82522D64E45F006A4D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5F824E2D64E45F006A4D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5F823B2D64E45D006A4D15 /* CampusNavigatorApp */;
+			targetProxy = AF5F824D2D64E45F006A4D15 /* PBXContainerItemProxy */;
+		};
+		AF5F82582D64E45F006A4D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5F823B2D64E45D006A4D15 /* CampusNavigatorApp */;
+			targetProxy = AF5F82572D64E45F006A4D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF5F825E2D64E45F006A4D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF5F825F2D64E45F006A4D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5F82612D64E45F006A4D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampusNavigatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5F82622D64E45F006A4D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampusNavigatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF5F82642D64E45F006A4D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusNavigatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampusNavigatorApp";
+			};
+			name = Debug;
+		};
+		AF5F82652D64E45F006A4D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusNavigatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampusNavigatorApp";
+			};
+			name = Release;
+		};
+		AF5F82672D64E45F006A4D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampusNavigatorApp;
+			};
+			name = Debug;
+		};
+		AF5F82682D64E45F006A4D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRPACPFAKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isuru.CampusNavigatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampusNavigatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5F82372D64E45D006A4D15 /* Build configuration list for PBXProject "CampusNavigatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5F825E2D64E45F006A4D15 /* Debug */,
+				AF5F825F2D64E45F006A4D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5F82602D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5F82612D64E45F006A4D15 /* Debug */,
+				AF5F82622D64E45F006A4D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5F82632D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5F82642D64E45F006A4D15 /* Debug */,
+				AF5F82652D64E45F006A4D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5F82662D64E45F006A4D15 /* Build configuration list for PBXNativeTarget "CampusNavigatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5F82672D64E45F006A4D15 /* Debug */,
+				AF5F82682D64E45F006A4D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5F82342D64E45D006A4D15 /* Project object */;
+}
