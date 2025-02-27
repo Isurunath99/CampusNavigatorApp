@@ -1,15 +1,10 @@
-//
-//  ContentView.swift
-//  CampusNavigatorApp
-//
-//  Created by sasiri rukshan nanayakkara on 2/18/25.
-//
-
 import SwiftUI
 
 struct QAForumScreen: View {
     @State private var selectedFilter = 0
     @State private var showingAskQuestion = false
+    
+    let filterOptions = ["Recent", "Popular", "Unanswered"]
     
     let questions: [Question] = [
         Question(
@@ -44,72 +39,25 @@ struct QAForumScreen: View {
     var body: some View {
         NavigationView {
             ZStack {
-                // Background color
-                Color(hex: "F5F5F5")
+                Color(hexString: "F5F5F5")
                     .ignoresSafeArea()
                 
-                // Shape image at the top
                 Image("shape")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(height: 500)
                     .edgesIgnoringSafeArea(.top)
                     .position(x: UIScreen.main.bounds.width / 2, y: 0)
-                     
+                
                 VStack(spacing: 0) {
                     // Header
-                    HStack {
-                        Text("Campus Q&A")
-                            .font(.system(size: 24, weight: .bold))
-                            .foregroundColor(Color(hex: "ECF0F1"))
-                        
-                        Spacer()
-                        
-                        Button(action: {
-                            showingAskQuestion = true
-                        }) {
-                            HStack(spacing: 4) {
-                                Image(systemName: "plus")
-                                Text("Ask Question")
-                            }
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 8)
-                            .background(Color(hex: "16A085"))
-                            .cornerRadius(8)
-                        }
-                    }
-                    .padding(16)
+                    headerView()
                     
                     // Filter Tabs
-                    HStack(spacing: 8) {
-                        ForEach(["Recent", "Popular", "Unanswered"].indices, id: \.self) { index in
-                            Button(action: {
-                                selectedFilter = index
-                            }) {
-                                Text(["Recent", "Popular", "Unanswered"][index])
-                                    .font(.system(size: 14, weight: .semibold))
-                                    .foregroundColor(Color(hex: selectedFilter == index ? "2A9D8F" : "16A085"))
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 6)
-                                    .background(selectedFilter == index ? Color(hex: "E6F7F5") : Color.clear)
-                                    .cornerRadius(16)
-                            }
-                        }
-                        Spacer()
-                    }
-                    .padding(12)
+                    filterTabs()
                     
                     // Questions List
-                    ScrollView {
-                        LazyVStack(spacing: 16) {
-                            ForEach(questions) { question in
-                                QuestionCardView(question: question)
-                                    .padding(.horizontal, 16)
-                            }
-                        }
-                        .padding(.top, 16)
-                    }
+                    questionsList()
                 }
             }
         }
@@ -117,8 +65,68 @@ struct QAForumScreen: View {
             AskQuestionModal(isPresented: $showingAskQuestion)
         }
     }
+    
+    /// Header View
+    private func headerView() -> some View {
+        HStack {
+            Text("Campus Q&A")
+                .font(.system(size: 24, weight: .bold))
+                .foregroundColor(Color(hexString: "ECF0F1"))
+            
+            Spacer()
+            
+            Button(action: { showingAskQuestion = true }) {
+                HStack(spacing: 4) {
+                    Image(systemName: "plus")
+                    Text("Ask Question")
+                }
+                .foregroundColor(.white)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 8)
+                .background(Color(hexString: "16A085"))
+                .cornerRadius(8)
+            }
+        }
+        .padding(16)
+    }
+    
+    /// Filter Tabs View
+    private func filterTabs() -> some View {
+        HStack(spacing: 8) {
+            ForEach(filterOptions.indices, id: \.self) { index in
+                let option = filterOptions[index]
+                Button(action: {
+                    selectedFilter = index
+                }) {
+                    Text(option)
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundColor(Color(hexString: selectedFilter == index ? "2A9D8F" : "16A085"))
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 6)
+                        .background(selectedFilter == index ? Color(hexString: "E6F7F5") : Color.clear)
+                        .cornerRadius(16)
+                }
+            }
+            Spacer()
+        }
+        .padding(12)
+    }
+    
+    /// Questions List View
+    private func questionsList() -> some View {
+        ScrollView {
+            LazyVStack(spacing: 16) {
+                ForEach(questions) { question in
+                    QuestionCardView(question: question)
+                        .padding(.horizontal, 16)
+                }
+            }
+            .padding(.top, 16)
+        }
+    }
 }
 
 #Preview {
     QAForumScreen()
 }
+

@@ -30,12 +30,12 @@ struct NavButtonView: View {
     @ViewBuilder
     private func destinationView(for item: NavItem) -> some View {
         switch item.id {
-        case 1: MapScreen()
+        //case 1: MapScreen()
         case 2: LiveUpdatesScreen()
         case 3: EventsScreen()
         case 4: QAForumScreen()
-        case 5: ShuttleScreen()
-        case 6: GuideScreen()
+        case 5: ShuttleServiceView()
+        //case 6: GuideScreen()
         default: Text("Unknown View")
         }
     }

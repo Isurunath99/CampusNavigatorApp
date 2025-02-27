@@ -36,7 +36,7 @@ struct EventCardView: View {
                     // Date box
                     Text(event.formattedDate)
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(Color(hex: "1B3054"))
+                        .foregroundColor(Color(hexString: "1B3054"))
                         .padding(8)
                         .background(Color.white)
                         .cornerRadius(8)
@@ -49,7 +49,7 @@ struct EventCardView: View {
                     // Title
                     Text(event.title)
                         .font(.system(size: 18, weight: .semibold))
-                        .foregroundColor(Color(hex: "1B3054"))
+                        .foregroundColor(Color(hexString: "1B3054"))
                         .lineLimit(1)
                     
                     // Description
@@ -97,16 +97,16 @@ struct EventCardView: View {
                         HStack {
                             Text("View on map")
                                 .font(.system(size: 14, weight: .medium))
-                                .foregroundColor(Color(hex: "2A9D8F"))
+                                .foregroundColor(Color(hexString: "2A9D8F"))
                             Image(systemName: "chevron.right")
                                 .font(.system(size: 14))
-                                .foregroundColor(Color(hex: "2A9D8F"))
+                                .foregroundColor(Color(hexString: "2A9D8F"))
                         }
                         .padding(.top, 12)
                         .overlay(
                             Rectangle()
                                 .frame(height: 1)
-                                .foregroundColor(Color(hex: "EEEEEE"))
+                                .foregroundColor(Color(hexString: "EEEEEE"))
                                 .offset(y: -6),
                             alignment: .top
                         )

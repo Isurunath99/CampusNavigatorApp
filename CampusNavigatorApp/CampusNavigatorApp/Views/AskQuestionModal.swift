@@ -31,7 +31,7 @@ struct AskQuestionModal: View {
                 Button("Cancel") {
                     isPresented = false
                 }
-                .foregroundColor(Color(hex: "333333"))
+                .foregroundColor(Color(hexString: "333333"))
                 .padding(.horizontal, 20)
                 .padding(.vertical, 10)
                 .background(Color.gray.opacity(0.2))
@@ -44,7 +44,7 @@ struct AskQuestionModal: View {
                 .foregroundColor(.white)
                 .padding(.horizontal, 20)
                 .padding(.vertical, 10)
-                .background(Color(hex: "16A085"))
+                .background(Color(hexString: "16A085"))
                 .cornerRadius(5)
             }
         }

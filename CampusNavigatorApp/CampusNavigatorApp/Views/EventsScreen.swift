@@ -40,7 +40,7 @@ struct EventsScreen: View {
         NavigationView {
             ZStack {
                 // Background color
-                Color(hex: "F5F5F5")
+                Color(hexString: "F5F5F5")
                     .ignoresSafeArea()
                 
                 // Shape image at the top
@@ -56,19 +56,19 @@ struct EventsScreen: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Campus Events")
                             .font(.system(size: 24, weight: .bold))
-                            .foregroundColor(Color(hex: "1B3054"))
+                            .foregroundColor(Color(hexString: "FFFFFF"))
                         
                         Text("Discover upcoming events happening around campus")
                             .font(.system(size: 14))
-                            .foregroundColor(.gray)
+                            .foregroundColor(Color(hexString: "EEEEEE"))
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(16)
-                    .background(Color.white)
+                    //.background(Color.white)
                     .overlay(
                         Rectangle()
                             .frame(height: 1)
-                            .foregroundColor(Color(hex: "EEEEEE")),
+                            .foregroundColor(Color(hexString: "EEEEEE")),
                         alignment: .bottom
                     )
                     

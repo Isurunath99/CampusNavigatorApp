@@ -19,7 +19,7 @@ struct QuestionCardView: View {
                 HStack(alignment: .top) {
                     Text(question.title)
                         .font(.system(size: 16, weight: .semibold))
-                        .foregroundColor(Color(hex: "1B3054"))
+                        .foregroundColor(Color(hexString: "1B3054"))
                         .multilineTextAlignment(.leading)
                     
                     Spacer()
@@ -27,7 +27,7 @@ struct QuestionCardView: View {
                     VStack(alignment: .center) {
                         Text("\(question.answerCount)")
                             .font(.system(size: 16, weight: .semibold))
-                            .foregroundColor(Color(hex: "2A9D8F"))
+                            .foregroundColor(Color(hexString: "2A9D8F"))
                         Text("answers")
                             .font(.system(size: 12))
                             .foregroundColor(.gray)
@@ -45,10 +45,10 @@ struct QuestionCardView: View {
                     ForEach(question.tags, id: \.self) { tag in
                         Text(tag)
                             .font(.system(size: 12))
-                            .foregroundColor(Color(hex: "2A9D8F"))
+                            .foregroundColor(Color(hexString: "2A9D8F"))
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
-                            .background(Color(hex: "E6F7F5"))
+                            .background(Color(hexString: "E6F7F5"))
                             .cornerRadius(4)
                     }
                 }

@@ -180,12 +180,12 @@ struct SignUpView: View {
             }
             
             // Bottom shape overlay
-            Image("Bottom")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(maxWidth: .infinity)
-                .edgesIgnoringSafeArea(.bottom)
-                .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height - 100)
+//            Image("Bottom")
+//                .resizable()
+//                .aspectRatio(contentMode: .fill)
+//                .frame(maxWidth: .infinity)
+//                .edgesIgnoringSafeArea(.bottom)
+//                .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height - 100)
         }
     }
 }

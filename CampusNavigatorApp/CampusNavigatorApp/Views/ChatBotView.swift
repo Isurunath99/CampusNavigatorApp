@@ -23,8 +23,10 @@ struct ChatBotView: View {
             // Background shape
             Image("shape")
                 .resizable()
-                .edgesIgnoringSafeArea(.top)
+                .aspectRatio(contentMode: .fill)
                 .frame(height: 500)
+                .edgesIgnoringSafeArea(.top)
+                .position(x: UIScreen.main.bounds.width / 2, y: 0)
             
             VStack {
                 // Messages scroll view
